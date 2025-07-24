@@ -1,0 +1,8 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#dc2626"/>
+  <text x="200" y="100" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="white" text-anchor="middle">Tienaa Rahaa</text>
+  <text x="200" y="130" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="white" text-anchor="middle">Tekoälyllä</text>
+  <text x="200" y="160" font-family="Arial, sans-serif" font-size="20" fill="white" text-anchor="middle">2025</text>
+  <text x="150" y="200" font-family="Arial, sans-serif" font-size="30" fill="white">€</text>
+  <text x="250" y="200" font-family="Arial, sans-serif" font-size="30" fill="white">$</text>
+</svg>

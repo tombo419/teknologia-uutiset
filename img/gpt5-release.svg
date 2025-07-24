@@ -1,0 +1,8 @@
+<svg width="400" height="250" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="250" fill="#16a34a"/>
+  <text x="200" y="110" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="white" text-anchor="middle">GPT-5</text>
+  <text x="200" y="150" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">Julkaisu</text>
+  <circle cx="80" cy="80" r="20" fill="white" opacity="0.3"/>
+  <circle cx="320" cy="170" r="15" fill="white" opacity="0.3"/>
+  <circle cx="350" cy="70" r="12" fill="white" opacity="0.3"/>
+</svg>

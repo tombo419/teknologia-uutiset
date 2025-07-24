@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Opi prompt engineering perusteet - miten kirjoitat tehokkaita prompteja AI-malleille kuten ChatGPT, Claude ja Gemini.">
+    <meta name="keywords" content="prompt engineering, promptit, tekoäly, AI, ChatGPT, Claude, opas">
+    <meta name="author" content="TeknologiaUutiset">
+    <title>Prompt Engineering perusteet - Täydellinen opas | TeknologiaUutiset</title>
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="canonical" href="https://teknologiauutiset.fi/categories/oppaat/prompt-engineering-perusteet.html">
+    <meta property="og:title" content="Prompt Engineering perusteet - Täydellinen opas">
+    <meta property="og:description" content="Opi kirjoittamaan tehokkaita prompteja tekoälymalleille.">
+    <meta property="og:type" content="article">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Prompt Engineering perusteet - Täydellinen opas",
+      "datePublished": "2025-07-15",
+      "author": {
+        "@type": "Organization",
+        "name": "TeknologiaUutiset"
+      }
+    }
+    </script>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <h1 class="logo"><a href="/" style="text-decoration: none; color: #2563eb;">TeknologiaUutiset</a></h1>
+                <ul class="nav-links">
+                    <li><a href="/">Etusivu</a></li>
+                    <li><a href="/categories/ai-tyokalut/">AI-työkalut</a></li>
+                    <li><a href="/categories/uutiset/">Uutiset</a></li>
+                    <li><a href="/categories/rahan-ansaitseminen/">Rahan ansaitseminen</a></li>
+                    <li><a href="/categories/seo/">SEO & AI</a></li>
+                    <li><a href="/categories/teknologiat/">Teknologiat</a></li>
+                    <li><a href="/categories/oppaat/">Oppaat</a></li>
+                    <li><a href="/categories/tyoelama/">Työelämä & Etiikka</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <article>
+            <div class="article-header">
+                <div class="container">
+                    <h1>Prompt Engineering perusteet - Täydellinen opas</h1>
+                    <div class="article-meta">
+                        <span class="date">15. heinäkuuta 2025</span>
+                        <span class="category"><a href="/categories/oppaat/">Oppaat</a></span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="article-content">
+                <div class="container">
+                    <p>Prompt engineering on taito kirjoittaa tehokkaita ohjeita tekoälymalleille. Hyvällä promptilla saat laadukkaita vastauksia, kun taas huonolla promptilla tulokset voivat olla epämääräisiä tai vääriä.</p>
+
+                    <h2>Mikä on prompt?</h2>
+                    <p>Prompt on teksti, jonka annat tekoälymallille ohjaamaan sen vastausta. Se voi olla kysymys, käsky, tai monimutkainen ohjeistus.</p>
+
+                    <h2>Perussäännöt</h2>
+                    
+                    <h3>1. Ole selkeä ja tarkka</h3>
+                    <div class="example-box">
+                        <p><strong>Huono:</strong> "Kerro jotain kodeista"</p>
+                        <p><strong>Hyvä:</strong> "Selitä Python-kielen for-silmukan syntaksi ja anna kaksi käytännön esimerkkiä"</p>
+                    </div>
+
+                    <h3>2. Anna kontekstia</h3>
+                    <div class="example-box">
+                        <p><strong>Huono:</strong> "Kirjoita sähköposti"</p>
+                        <p><strong>Hyvä:</strong> "Kirjoita kohtelias sähköposti asiakkaalle, joka valittaa viivästyneestä tilauksesta. Sävy: anteeksipyytävä mutta ammattimainen."</p>
+                    </div>
+
+                    <h3>3. Määrittele formaatti</h3>
+                    <div class="example-box">
+                        <p><strong>Esimerkki:</strong> "Listaa 5 AI-työkalua seuraavassa muodossa:<br>
+                        1. [Nimi] - [Kuvaus] - [Hinta]"</p>
+                    </div>
+
+                    <h2>Edistyneet tekniikat</h2>
+                    
+                    <h3>Chain of Thought (Ajatusketju)</h3>
+                    <p>Pyydä tekoälyä selittämään ajatteluprosessinsa:</p>
+                    <div class="example-box">
+                        <p>"Ratkaise tämä matemaattinen ongelma askel askeleelta ja selitä jokainen vaihe:"</p>
+                    </div>
+
+                    <h3>Few-shot prompting</h3>
+                    <p>Anna esimerkkejä halutusta tuloksesta:</p>
+                    <div class="example-box">
+                        <p>Käännä seuraavat lauseet englannista suomeksi:<br>
+                        "Hello" → "Hei"<br>
+                        "Thank you" → "Kiitos"<br>
+                        "Good morning" → ?</p>
+                    </div>
+
+                    <h3>Role playing</h3>
+                    <p>Pyydä tekoälyä ottamaan tietty rooli:</p>
+                    <div class="example-box">
+                        <p>"Toimi kokenana markkinointikonsulttina ja analysoi tämä mainoskampanja..."</p>
+                    </div>
+
+                    <h2>Yleisiä virheitä</h2>
+                    <ul>
+                        <li><strong>Epämääräisyys:</strong> Liian yleiset kysymykset</li>
+                        <li><strong>Ristiriitaiset ohjeet:</strong> Keskenään ristiriitaiset vaatimukset</li>
+                        <li><strong>Kontekstin puute:</strong> Ei tarpeeksi taustatietoa</li>
+                        <li><strong>Liian pitkät promptit:</strong> Ylikuormittavat ohjeet</li>
+                    </ul>
+
+                    <h2>Käytännön vinkkejä</h2>
+                    <ol>
+                        <li><strong>Testaa ja hieno säädä:</strong> Kokeile erilaisia muotoiluja</li>
+                        <li><strong>Käytä rajauksia:</strong> "Vastaa maksimissaan 100 sanalla"</li>
+                        <li><strong>Pyydä tarkennuksia:</strong> "Jos et ymmärrä jotain, kysy lisätietoja"</li>
+                        <li><strong>Jaa monimutkaiset tehtävät:</strong> Pienempiin osiin</li>
+                    </ol>
+
+                    <h2>Mallisivu tehokkaalle promptille</h2>
+                    <div class="example-box">
+                        <p><strong>Konteksti:</strong> [Mikä tilanne, kenelle, miksi]<br>
+                        <strong>Tehtävä:</strong> [Mitä haluat tekoälyn tekevän]<br>
+                        <strong>Formaatti:</strong> [Miten vastaus tulisi muotoilla]<br>
+                        <strong>Sävy:</strong> [Ammattimainen/rento/luova jne.]<br>
+                        <strong>Rajoitukset:</strong> [Pituus, kielet, sisältö]</p>
+                    </div>
+
+                    <h2>Harjoitustehtäviä</h2>
+                    <p>Kokeile kirjoittaa prompteja näihin tilanteisiin:</p>
+                    <ol>
+                        <li>Pyydä tekoälyä kirjoittamaan LinkedIn-päivitys uudesta työpaikasta</li>
+                        <li>Laadi prompt, joka auttaa oppimaan uutta kieltä</li>
+                        <li>Suunnittele prompt luovan tarinan kirjoittamiseen</li>
+                    </ol>
+
+                    <div class="related-articles">
+                        <h3>Aiheeseen liittyvät artikkelit</h3>
+                        <ul>
+                            <li><a href="tekoaly-aloittelijoille.html">Tekoäly aloittelijoille - Täydellinen opas 2025</a></li>
+                            <li><a href="mika-on-chatgpt.html">Mikä on ChatGPT? - Täydellinen opas</a></li>
+                            <li><a href="/categories/ai-tyokalut/parhaat-ai-tyokalut-2025.html">Parhaat AI-työkalut tuottavuuteen vuonna 2025</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </article>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 TeknologiaUutiset. Kaikki oikeudet pidätetään.</p>
+            <nav>
+                <a href="/tietosuoja">Tietosuoja</a>
+                <a href="/kayttoehdot">Käyttöehdot</a>
+                <a href="/yhteystiedot">Yhteystiedot</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
